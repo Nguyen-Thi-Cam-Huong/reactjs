@@ -8,6 +8,9 @@ body {
   text-align: center;
   font-size: 18px;
   font-weight: bold;
+  width: 50%;
+  margin: 30px auto;
+  background-color: #cdcdcd;
 }
 
 code {
