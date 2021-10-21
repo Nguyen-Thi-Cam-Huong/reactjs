@@ -4,7 +4,7 @@ import Icon from '@atlaskit/icon';
 import Button from '@atlaskit/button';
 import { useState, useEffect, useCallback } from 'react';
 import { v4 } from 'uuid';
-import React from 'react';
+import Test1 from './components/test';
 
 const TODO_APP_STORAGE_KEY = "TODO_APP";
 
@@ -42,7 +42,7 @@ const onCheckBtnClick = useCallback((id) => {
 
   return (
     <>
-      <h3>Danh sách cần làm</h3>
+      <Test1 />
       <Textfield
        name='add-todo'
        placeholder='Thêm ...'

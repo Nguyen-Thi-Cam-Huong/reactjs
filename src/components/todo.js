@@ -1,7 +1,8 @@
 import React from 'react';
 import Button from '@atlaskit/button';
-import styled from 'styled-components';
-import {css} from 'styled-components';
+// import styled from 'styled-components';
+// import {css} from 'styled-components';
+import styled , {css} from 'styled-components';
 import CheckIcon from '@atlaskit/icon/glyph/check';
 
 const ButtonStyled = styled(Button)`
